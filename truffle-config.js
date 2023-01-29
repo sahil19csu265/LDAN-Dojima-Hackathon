@@ -24,7 +24,7 @@ require('dotenv').config();
 
 const privateKey = process.env.PRIVATE_KEY ;
 const HDWalletProvider = require('@truffle/hdwallet-provider');
-const Web3 = require('web3')
+// const Web3 = require('web3')
 
 module.exports = {
   /**
@@ -50,16 +50,18 @@ module.exports = {
      network_id: "*",       // Any network (default: none)
     },
     //
-    goerli: {
-      provider: () => new HDWalletProvider(process.env.MNEMONIC, `https://goerli.infura.io/v3/${process.env.INFURA_KEY}`),
-      network_id: 5,       // Goerli's id
-      chain_id: 5
-    },
+    // goerli: {
+    //   provider: () => new HDWalletProvider(process.env.MNEMONIC, `https://goerli.infura.io/v3/${process.env.INFURA_KEY}`),
+    //   network_id: 5,       // Goerli's id
+    //   chain_id: 5
+    // },
 
     dojimachain: {
       provider: () => new HDWalletProvider(privateKey, "https://api-test.d11k.dojima.network:8545/"),
       network_id: 1001,   // This network is yours, in the cloud.
-      production: true    // Treats this network as if it was a public net. (default: false)
+      production: true,    // Treats this network as if it was a public net. (default: false)
+      networkCheckTimeout: 20000,
+      timeoutBlocks: 200
     }
   },
 
