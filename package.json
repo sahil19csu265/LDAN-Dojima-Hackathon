@@ -2,9 +2,9 @@
   "name": "genesis-contracts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/app.mjs",
   "scripts": {
-    "start": "nodemon src/app.js",
+    "start": "nodemon src/app.mjs",
     "testconsole": "truffle console -p 8545 --networkId 1001",
     "testrpc": "ganache-cli -p 8545 --networkId 1001 --mnemonic 'clock radar mass judge dismiss just intact mind resemble fringe diary casino' --gasLimit 13000000",
     "truffle": "truffle",

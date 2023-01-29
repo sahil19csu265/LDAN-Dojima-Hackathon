@@ -24,14 +24,13 @@ function alertUser(txnhash){
     let alertDiv = document.querySelector("#alert-box");
     alertDiv.style = "display: show;";
     if(txnhash){
-        console.log(`https://goerli.etherscan.io/tx/${txnhash}`);
         alertDiv.className="alert alert-success m-3";
         document.querySelector("#alert-message").innerHTML = "Successfull Transaction."
         let alertLink = document.createElement('a');
         alertLink.className = "back-btn";
         alertLink.target = "_blank";
-        alertLink.href = `https://goerli.etherscan.io/tx/${txnhash}`;
-        alertLink.innerHTML = "Click Here To Verify";
+        alertLink.href = `https://doj-bex-test.dojima.network/tx/${txnhash}`;
+        alertLink.innerHTML = "Click Here To Verify & Please Refresh Once";
         alertDiv.appendChild(alertLink);
     }
     else{
