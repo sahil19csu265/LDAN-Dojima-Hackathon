@@ -72,7 +72,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [
@@ -91,7 +92,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"_from\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"_to\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"_value\",\"type\":\"uint256\"}],\"name\":\"Transfer\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"addr\",\"type\":\"address\"}],\"name\":\"getBalance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"addr\",\"type\":\"address\"}],\"name\":\"getBalanceInEth\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"receiver\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"sendCoin\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"sufficient\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/MetaCoin.sol\":\"MetaCoin\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/ConvertLib.sol\":{\"keccak256\":\"0x3ee33e6e8cf55bad996568ba3cd311ac174c8b4fd9fd51cd6aabf6000d5c9643\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://de003f417b98896601d7f63ab7cee95f38f237af4d56712019221644954a7509\",\"dweb:/ipfs/QmQb7FVshbroABJCpCsn6hf2gu7nqUdXvFHkWNwjRSVwkm\"]},\"project:/contracts/MetaCoin.sol\":{\"keccak256\":\"0xdbe28f9b62da2b85710c1895194f53c4989bbf85f0597e704e501dfc6d8aa74c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://87ef8112316f5c79f56afbd86f71351208ecbe887bb6fa7af42dd405c9fa8439\",\"dweb:/ipfs/QmVv81q3LLoG1HgUKzi2bUpgmWQmTqJea67hzFGiBXXRD5\"]}},\"version\":1}",
@@ -3936,11 +3938,20 @@
         "ConvertLib": "0xb4ee6879Ba231824651991C8F0a34Af4d6BFca6a"
       },
       "address": "0x168ea52F1fAfe28d584F94357383d4f6FA8a749A",
-      "transactionHash": "0xae47ba11a0a5273bf5543202c6e078327d5b0a2957a6a76ddcfdc4fa03f29327"
+      "transactionHash": "0x01ef6a41e428955ab04809921f6a52655da9f90a60e04d597dc6605874b810cd"
+    },
+    "5777": {
+      "events": {},
+      "links": {
+        "ConvertLib": "0x83d9D09459f96b7CF47198fB89EBDfA01eFDA6c9"
+      },
+      "address": "0x5BF4302D7d43C332cFFDb1C2FBa323185b43d5Ee",
+      "transactionHash": "0x0c533c9804b98810f8518baf4892cdb1d66d2d4ced86d59d3d67339231df54be"
     }
   },
   "schemaVersion": "3.4.11",
-  "updatedAt": "2023-01-29T04:21:46.149Z",
+  "updatedAt": "2023-01-29T05:40:24.454Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},

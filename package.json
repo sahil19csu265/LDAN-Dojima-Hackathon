@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start" : "nodemon src/app.js",
+    "testconsole": "truffle console -p 8545 --networkId 1001",
     "testrpc": "ganache-cli -p 8545 --networkId 1001 --mnemonic 'clock radar mass judge dismiss just intact mind resemble fringe diary casino' --gasLimit 13000000",
     "truffle": "truffle",
     "truffle:test": "truffle test",
@@ -19,18 +21,25 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@openzeppelin/contracts": "^4.8.1",
-    "@truffle/hdwallet-provider": "^2.1.3",
     "bluebird": "^3.5.5",
     "chai": "4.2.0",
     "chai-as-promised": "^7.1.1",
     "commander": "^3.0.1",
-    "dotenv": "^16.0.3",
     "ganache-cli": "^6.8.0-istanbul.0",
     "nunjucks": "^3.2.0",
     "openzeppelin-solidity": "2.2.0",
     "solidity-rlp": "^2.0.0",
-    "truffle": "^5.0.34",
-    "web3": "^1.2.4"
+    "@openzeppelin/contracts": "^4.7.3",
+    "@truffle/hdwallet-provider": "^2.1.0",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "mongoose": "^6.7.1",
+    "nodemon": "^2.0.19",
+    "truffle": "^5.5.28",
+    "truffle-contract": "^4.0.31",
+    "web3": "^1.8.0",
+    "web3-eth": "^1.8.0"
+  },
+  "devDependencies": {
   }
 }
