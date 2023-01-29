@@ -1,5 +1,6 @@
 # Dojima-Network-hackathon
-## LDAN - Land Deeds as NFTs
+## Project : LDAN - Land Deeds as NFTs
+## Team : Code Click
 
 ##### live URL : https://LDAN-Dojima-Hackathon.sahilpal2.repl.co
 ##### Idea Pitch Video URL : https://drive.google.com/file/d/1HFm3NCua7pX09tP8WtYjLyK0a8qhQ8yq/view
