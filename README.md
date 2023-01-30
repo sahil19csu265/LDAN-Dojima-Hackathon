@@ -3,6 +3,11 @@
 ## Team : Code Click
 
 ##### live URL : https://LDAN-Dojima-Hackathon.sahilpal2.repl.co
+## Auth Details
+#### User -
+   Id: rohit@gmail.com     password:rohit@123
+#### Admin -
+   Id: sahil@gmail.com     password:sahil@123
 ##### Idea Pitch Video URL : https://drive.google.com/file/d/1HFm3NCua7pX09tP8WtYjLyK0a8qhQ8yq/view
 ##### Demo Video URL : https://drive.google.com/file/d/1Ewh69vfbixIWEsVwCmI3l_rJrQ1ZEKkX/view?usp=sharing
 
